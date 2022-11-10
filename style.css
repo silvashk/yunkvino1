@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #590400;
+}
+
+header {
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+    box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.267);
+    background-image: linear-gradient(to bottom, red, rgb(146, 0, 0));
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.267);
+}
+
+header > h1 {
+    padding: 10px;
+    margin: 10px;
+}
+
+header > p {
+    padding: 10px;
+    margin: 10px;
+}
+
+main > section > h1 {
+    background-image: linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,0.2));
+    padding: 2px 4px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    padding: 3px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-weight: bold;
+    transition-duration: .5s;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: red;
+    background-color: rgb(128, 0, 0);
+}
+
+main {
+    background-color: white;
+    margin: auto 40px;
+    padding: 10px;
+    box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.267);
+    border-radius: 10px;
+    text-align: justify;
+}
+
+main > section > h1 {
+    padding: 2px;
+    margin: 10px;
+}
+
+main > section > p {
+    padding: 2px;
+    margin: 10px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+.imagem1 {
+    width: 50%;
+    display: block;
+    margin: 30px auto;
+}
+
+.linkyk {
+    background-color: rgba(255, 0, 0, 0.74);
+    color: white;
+    padding: 2.5px;
+    text-decoration: none;
+}
+
+.linkyk:hover {
+    text-decoration: underline;
+}
+
+.configvideoyk {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+
+.videoyk {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;  
+}
+
+aside{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 10px 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.267);
+    background-image: linear-gradient(to bottom, red, rgb(146, 0, 0));
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.267);
+}
+
+aside > h2 {
+    text-align: center;
+    background-color: rgb(146, 0, 0);
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 1.1em;
+}
+
+aside > p {
+    padding: 10px 0px;
+}
+
+aside > ol {
+    list-style-position: inside;
+}
+
+aside > ol > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+aside > ol > li > a:hover {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;;
+}
+
+.final{
+    text-align: center;
+    font-weight: bolder;
+}
+
+body > p {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    padding: 7px;
+}
